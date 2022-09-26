@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/')
+@app.route('/hw3')
 def index():
     return """<!DOCTYPE html>
         <html lang="en">
